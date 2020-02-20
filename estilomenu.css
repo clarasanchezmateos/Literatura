@@ -1,0 +1,105 @@
+head {
+	margin:0px;
+	padding:0px;
+}
+			
+	#header {
+		margin:auto;
+		width:360px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+			
+	ul, ol {
+		list-style:none;
+	}
+			
+	.nav > li {
+		float:left;
+	}
+			
+	.nav li a {
+		background-color:#17D0CD;
+		color:#fff;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+	}
+			
+	.nav li a:hover {
+		background-color:#18B6B3;
+	}
+			
+	.nav li ul {
+		display:none;
+		position:absolute;
+		min-width:140px;
+	}
+			
+	.nav li:hover > ul {
+		display:block;
+	}
+			
+	.nav li ul li {
+		position:relative;
+	}
+			
+	.nav li ul li ul {
+		right:-140px;
+		top:0px;
+	}
+	#parrafo {}
+	.aleluya {
+		margin-top:0px,
+		margin-bottom:0px,
+		margin-left:100px,
+		margin-right:100px;
+	}
+	#titulo {
+  		clear:both;
+		border:3px solid rgb(200,200,200);
+		padding:20px;
+  		background: url("https://www.caracteristicas.co/wp-content/uploads/2017/03/literatura-e1564964801590.jpg");
+	}
+ 	.arriba {text-align: center; font-size:50; color: rgb(255,255,255);}
+
+	#contenido {
+  		float: left;
+  		border:30px solid rgb(0,240,230);
+  		background: rgb(0,240,230);
+  		width: 76%;
+	}
+	#contenido #principal {
+  		float: left;
+  		border:30px solid rgb(128,0,0);
+  		background: rgb(128,0,0);
+  		width: 80%;
+	}
+	#contenido #secundario {
+ 		float: left;
+  		border:30px solid rgb(119,136,153);
+  		background: rgb(119,136,153);
+  		width: 20%;
+	}
+
+	#pie {
+ 		clear: both;
+  		border:30px solid rgb(220,255,255);
+  		background: rgb(220,255,255);
+	}
+	#lado {
+		float:right;
+		border:10px solid rgb(119,136,153);
+  		background: rgb(119,136,153);
+		width: 17%;
+	}
+	#enlace {
+		color: rgb(255,255,255);
+	}
+	#enlace:hover{
+		color: rgb(0,0,0);
+	}
+	
+
+body {
+	background:#D3FDEE;
+}
