@@ -64,8 +64,8 @@ head {
 
 	#contenido {
   		float: left;
-  		border:30px solid rgb(0,240,230);
-  		background: rgb(0,240,230);
+  		border:30px solid #22D6BE;
+  		background: #22D6BE;
   		width: 76%;
 	}
 	#contenido #principal {
